@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzhy.marqueeviewgather.MainActivity">
+
+    <Button
+        android:id="@+id/btn_simple_impl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单实现"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:shadowColor="#cccccc"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:layout_margin="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义实现"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:shadowColor="#cccccc"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:layout_margin="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_my_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的公告栏"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:shadowColor="#cccccc"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:layout_margin="12dp"
+        />
+</LinearLayout>
